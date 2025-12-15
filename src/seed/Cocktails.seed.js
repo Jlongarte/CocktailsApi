@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 
 mongoose
   .connect(
-    "mongodb+srv://JLUser:Thepower123@cluster0.7tbzash.mongodb.net/?appName=cocktails_db"
+    ""
   )
   .then(async () => {
     const allCocktails = await Cocktail.find();
@@ -21,3 +21,4 @@ mongoose
     console.log(error.mesage, "Failed to upload Cocktails 💀");
   })
   .finally(() => mongoose.disconnect());
+
