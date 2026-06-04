@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const {
   getCocktails,
   createCocktail,
@@ -18,7 +17,7 @@ router.delete("/:id", isAuth(["admin"]), deleteCocktailById);
 router.put("/:id", isAuth(["admin"]), upload.single("image"), updateCocktail);
 
 module.exports = router;
-=======
+
 const {
   getCocktails,
   createCocktail,
@@ -38,4 +37,3 @@ router.delete("/:id", isAuth(["admin"]), deleteCocktailById);
 router.put("/:id", isAuth(["admin"]), upload.single("image"), updateCocktail);
 
 module.exports = router;
->>>>>>> 7f747d20de1779175b98afc5a9c3e386c9a042be
