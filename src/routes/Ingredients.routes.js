@@ -1,24 +1,10 @@
 const express = require("express");
+const router = express.Router();
 const {
   getAllIngredients,
   getIngredientByName,
   createIngredient,
 } = require("../controllers/Ingredients.controller");
-const router = express.Router();
-
-router.get("/", getAllIngredients);
-router.get("/:name", getIngredientByName);
-router.post("/", createIngredient);
-
-module.exports = router;
-
-const express = require("express");
-const {
-  getAllIngredients,
-  getIngredientByName,
-  createIngredient,
-} = require("../controllers/Ingredients.controller");
-const router = express.Router();
 
 router.get("/", getAllIngredients);
 router.get("/:name", getIngredientByName);
