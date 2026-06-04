@@ -103,3 +103,7 @@ Completed for educational purposes and backend development practice.
 ## Author - Janire 
 
 Project developed as a student practice project for learning REST API development.
+
+## Deployment
+
+https://cocktailsapi-9qny.onrender.com/
