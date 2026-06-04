@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 require("dotenv").config();
 const express = require("express");
 const connectDB = require("./src/config/db");
@@ -66,4 +66,4 @@ server.use((err, req, res, next) => {
     stack: err.stack,
   });
 });
->>>>>>> 7f747d20de1779175b98afc5a9c3e386c9a042be
+
